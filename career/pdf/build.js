@@ -5,11 +5,13 @@
 //   node build.js classic content-acme   -> one layout, content-acme.html
 //   node build.js all content-acme       -> classic, compact and banded
 //
-// Chrome is found in the usual install locations; set CHROME_PATH to override.
+// Chrome is found in the usual install locations, falling back to Edge or Chromium;
+// set CHROME_PATH to override.
 
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { pathToFileURL } = require('url');
 
 const DIR = __dirname;
 const OUT = path.join(DIR, 'out');
@@ -25,10 +27,17 @@ function findChrome() {
     '/usr/bin/google-chrome-stable',
     '/usr/bin/chromium',
     '/usr/bin/chromium-browser',
+    '/snap/bin/chromium',
+    // Edge renders identically and ships with every Windows install
+    'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
+    'C:\\Program Files\\Microsoft\\Edge\\Application\\msedge.exe',
+    '/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge',
+    '/Applications/Chromium.app/Contents/MacOS/Chromium',
+    '/usr/bin/microsoft-edge',
   ].filter(Boolean);
   const hit = candidates.find(p => fs.existsSync(p));
   if (!hit) {
-    console.error('Chrome not found. Install Google Chrome or set CHROME_PATH to its executable.');
+    console.error('Chrome not found (Edge and Chromium also work). Install Google Chrome or set CHROME_PATH to the browser executable.');
     process.exit(1);
   }
   return hit;
@@ -69,7 +78,7 @@ ${content}
 </html>
 `);
 
-  const url = 'file:///' + htmlPath.replace(/\\/g, '/').replace(/^\/+/, '');
+  const url = pathToFileURL(htmlPath).href;
   const common = ['--headless=new', '--disable-gpu', '--no-sandbox', '--run-all-compositor-stages-before-draw', '--virtual-time-budget=4000'];
 
   execFileSync(CHROME, [...common, '--no-pdf-header-footer', `--print-to-pdf=${pdfPath}`, url], { stdio: 'pipe' });

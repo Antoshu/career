@@ -7,7 +7,7 @@ description: Produce a one-page, sendable PDF CV tailored to one job posting, in
 
 The career interview is done. `career/career-profile.md` holds every validated number, the confidentiality rules, the voice specification and a log of wording decisions. A targeted CV is a selection and rewording exercise from that file, rendered through the PDF builder in `career/pdf/`. Nothing is researched, interviewed or scraped from LinkedIn unless the profile is genuinely missing something the posting asks about.
 
-**If `career/career-profile.md` does not exist**, stop and say so: the CV can only be as good as the profile, and the `career-interview` skill builds it. Offer to start the interview (Express mode if they are in a hurry).
+**If `career/career-profile.md` does not exist, or `career/interview-state.md` shows the interview has not reached Phase 7 (synthesis)**, stop and say so: the CV can only be as good as the profile, and the `career-interview` skill builds it. A profile file alone is not enough, because the interview creates it as an empty skeleton at the start. Offer to start or resume the interview (Express mode if they are in a hurry).
 
 ## Deliverable
 

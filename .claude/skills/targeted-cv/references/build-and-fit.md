@@ -1,6 +1,6 @@
 # Build and fit to one page
 
-The builder is `career/pdf/build.js` (Node, no dependencies). It wraps a content fragment in a layout stylesheet and renders PDF and PNG with headless Chrome. It looks for Chrome in the standard install locations on Windows, macOS and Linux; if Chrome lives elsewhere, set `CHROME_PATH` to the executable. Use Node for any scripted edits rather than assuming Python is installed.
+The builder is `career/pdf/build.js` (Node, no dependencies). It wraps a content fragment in a layout stylesheet and renders PDF and PNG with headless Chrome. It looks for Chrome in the standard install locations on Windows, macOS and Linux, then falls back to Edge or Chromium; if the browser lives elsewhere, set `CHROME_PATH` to the executable. Use Node for any scripted edits rather than assuming Python is installed.
 
 ## Build
 
