@@ -1,0 +1,103 @@
+/* Layout B — Compact modern. Sans-serif, tight leading, small-caps section labels,
+   a thin accent rule. Fits noticeably more per page; reads as contemporary tech. */
+
+@page { size: A4; margin: 12mm 14mm 10mm 14mm; }
+
+* { box-sizing: border-box; }
+
+:root { --accent: #1c4e6b; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif;
+  font-size: 9.2pt;
+  line-height: 1.3;
+  color: #212121;
+}
+
+.head {
+  margin-bottom: 11pt;
+  padding-bottom: 7pt;
+  border-bottom: 2pt solid var(--accent);
+}
+
+.name {
+  margin: 0 0 3pt;
+  font-size: 21pt;
+  font-weight: 600;
+  letter-spacing: -0.3pt;
+  color: var(--accent);
+}
+
+.contact {
+  margin: 0;
+  font-size: 8.3pt;
+  color: #5a5a5a;
+}
+
+h2 {
+  margin: 9pt 0 4pt;
+  font-size: 8.6pt;
+  font-weight: 700;
+  letter-spacing: 1.8pt;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+section:first-of-type h2 { margin-top: 0; }
+
+.summary { margin: 0; }
+
+.skills {
+  margin: 0;
+  font-size: 8.7pt;
+  color: #333;
+  line-height: 1.45;
+}
+
+.role-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10pt;
+  margin-top: 7pt;
+}
+
+.company {
+  font-size: 10.6pt;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 9.6pt;
+  font-weight: 600;
+  color: #2f2f2f;
+}
+
+.meta {
+  font-size: 8.2pt;
+  color: #6a6a6a;
+  white-space: nowrap;
+}
+
+.context {
+  margin: 2pt 0 0;
+  font-size: 8.5pt;
+  color: #5c5c5c;
+}
+
+ul { margin: 4pt 0 0; padding-left: 12pt; }
+
+li { margin-bottom: 2.9pt; }
+
+li::marker { color: var(--accent); }
+
+ul.tight li { margin-bottom: 2.4pt; }
+
+strong { font-weight: 600; }
+
+h2, .role-head { break-after: avoid; }
+
+li { break-inside: avoid; }
+
+@media screen { body { width: 210mm; padding: 12mm 14mm 10mm; } }

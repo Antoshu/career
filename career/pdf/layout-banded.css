@@ -1,0 +1,106 @@
+/* Layout C — Banded header. A tinted full-width name block, then a clean single
+   column. Distinctive at a glance while staying single-column and parseable. */
+
+@page { size: A4; margin: 0 0 13mm 0; }
+
+@page :first { margin-top: 0; }
+
+* { box-sizing: border-box; }
+
+:root {
+  --accent: #123b4f;
+  --band: #eef2f4;
+  --pad: 15mm;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif;
+  font-size: 9.2pt;
+  line-height: 1.3;
+  color: #1f1f1f;
+}
+
+/* everything except the band is inset by hand, since @page margin is 0 */
+section { padding: 0 var(--pad); }
+
+.head {
+  margin: 0 0 8pt;
+  padding: 7mm var(--pad) 5mm;
+  background: var(--band);
+  border-bottom: 3pt solid var(--accent);
+}
+
+.name {
+  margin: 0 0 4pt;
+  font-size: 22pt;
+  font-weight: 300;
+  letter-spacing: 1.2pt;
+  color: var(--accent);
+}
+
+.contact {
+  margin: 0;
+  font-size: 8.4pt;
+  color: #4e4e4e;
+}
+
+h2 {
+  margin: 8.5pt 0 4pt;
+  font-size: 9pt;
+  font-weight: 700;
+  letter-spacing: 2pt;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.summary-sec h2 { margin-top: 0; }
+
+.summary { margin: 0; }
+
+.skills {
+  margin: 0;
+  font-size: 8.8pt;
+  color: #333;
+  line-height: 1.45;
+}
+
+.role-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10pt;
+  margin-top: 7pt;
+}
+
+.company { font-size: 11pt; font-weight: 700; }
+
+.title { font-size: 9.8pt; font-weight: 600; color: var(--accent); }
+
+.meta {
+  font-size: 8.3pt;
+  color: #666;
+  white-space: nowrap;
+}
+
+.context {
+  margin: 2pt 0 0;
+  font-size: 8.6pt;
+  color: #5a5a5a;
+}
+
+ul { margin: 4pt 0 0; padding-left: 13pt; }
+
+li { margin-bottom: 2.7pt; }
+
+li::marker { color: var(--accent); }
+
+ul.tight li { margin-bottom: 2.6pt; }
+
+strong { font-weight: 600; }
+
+h2, .role-head { break-after: avoid; }
+
+li { break-inside: avoid; }
+
+@media screen { body { width: 210mm; padding: 0 0 13mm; } }

@@ -1,0 +1,97 @@
+/* Layout A — Classic. Serif, generous whitespace, ruled section headings.
+   The safest choice: reads as a traditional professional CV, parses cleanly. */
+
+@page { size: A4; margin: 13mm 15mm 11mm 15mm; }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 8.9pt;
+  line-height: 1.27;
+  color: #1b1b1b;
+}
+
+.head { margin-bottom: 14pt; }
+
+.name {
+  margin: 0 0 4pt;
+  font-size: 21pt;
+  font-weight: 400;
+  letter-spacing: 0.4pt;
+}
+
+.contact {
+  margin: 0;
+  font-size: 8.8pt;
+  color: #444;
+}
+
+h2 {
+  margin: 8.5pt 0 4pt;
+  padding-bottom: 3pt;
+  border-bottom: 0.6pt solid #b8b8b8;
+  font-size: 10.5pt;
+  font-weight: 700;
+  letter-spacing: 1.4pt;
+  text-transform: uppercase;
+}
+
+section:first-of-type h2 { margin-top: 0; }
+
+.summary { margin: 0; text-align: justify; }
+
+.skills {
+  margin: 0;
+  font-size: 9.2pt;
+  color: #2a2a2a;
+}
+
+.employer { margin-bottom: 2pt; }
+
+.role-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10pt;
+  margin-top: 7pt;
+}
+
+.company { font-size: 11.5pt; font-weight: 700; }
+
+.title {
+  font-size: 10.3pt;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.meta {
+  font-size: 8.8pt;
+  color: #555;
+  white-space: nowrap;
+}
+
+.context {
+  margin: 2pt 0 0;
+  font-size: 9pt;
+  font-style: italic;
+  color: #4a4a4a;
+}
+
+ul { margin: 5pt 0 0; padding-left: 14pt; }
+
+li { margin-bottom: 2.7pt; }
+
+li::marker { color: #888; }
+
+ul.tight li { margin-bottom: 3pt; }
+
+.role { break-inside: auto; }
+
+h2, .role-head { break-after: avoid; }
+
+li { break-inside: avoid; }
+
+/* screen preview only — mimics the printed page so the PNG matches the PDF */
+@media screen { body { width: 210mm; padding: 13mm 15mm 11mm; } }
