@@ -7,7 +7,11 @@ Two Claude Code skills and a PDF builder that turn your career into a reusable m
 
 ## Setup
 
-1. Unzip the kit. You get a `career-skills-kit` folder containing `.claude/`, `career/`, `CLAUDE.md` and this README. Rename it if you like (e.g. `job-search`); that folder is your job-search project. (`.claude` is a hidden folder; on macOS press Cmd+Shift+. in Finder to see it.)
+1. Get the files, either way:
+   - On GitHub, click **Code → Download ZIP** and unzip it. You get a `career-main` folder; rename it if you like (e.g. `job-search`).
+   - Or `git clone https://github.com/Antoshu/career.git job-search`. Before you commit anything, delete the `.git` folder or point the remote at a private repo of your own: `career/` is about to fill with your personal data.
+
+   That folder is your job-search project. It contains `.claude/`, `career/`, `CLAUDE.md` and this README. (`.claude` is a hidden folder; on macOS press Cmd+Shift+. in Finder to see it.)
 2. If you'd rather use an existing project, copy `.claude/skills/` and `career/pdf/` into it, and merge `CLAUDE.md` into yours.
 3. Requirements: [Claude Code](https://claude.com/claude-code), Node.js (any recent version) and Google Chrome. The PDF builder finds Chrome in its usual install location on Windows, macOS and Linux; if yours is elsewhere, set `CHROME_PATH`.
 4. Optional: the Claude in Chrome extension lets Claude read your LinkedIn profile directly. Without it, Claude will ask you to paste the profile or save it as PDF.
