@@ -93,6 +93,9 @@ Notes on anything awkward and how they want it handled:
    - Difficulty / constraints: [what made it hard — this is the differentiator]
    - Their words: "…" `[verbatim]`
    - Relevance to target: [high/medium/low]
+   - Behavioural tags (see `behavioural-taxonomy.md`):
+     - Primary `[tag]`: [angle: which part of the story to foreground for this question] · [strong/usable/thin]
+     - Secondary `[tag]`: [angle] · [grade, plus what's missing if thin]
 
 2. …
 
@@ -134,6 +137,41 @@ Working / leadership style, with a moment that demonstrates it:
 Strongly-held views about the craft:
 A failure and what changed after it:
 Career pattern / through-line:
+
+## 8b. Behavioural story bank
+Every accomplishment and story, indexed by the behavioural question it answers. Built
+silently during Phase 3, filled out in Phase 5. `behavioural-taxonomy.md` has the tags,
+grading and coverage rules.
+
+**Index** (core set first; add other tags the target weights)
+
+| Tag | Typical question | Stories (ref · grade) | Notes / company framework label |
+|---|---|---|---|
+| `conflict` | Tell me about a time you had to handle conflict at work | Acme #3 Schema dispute · strong; S2 Vendor escalation · usable | |
+| `failure` | Tell me about a time you failed | S1 Missed launch · strong | |
+| `influence` | ...convinced someone to change their mind | | |
+| `leadership` / `ownership` | ...led a project / went above and beyond | | |
+| `deadline` | ...worked under a tight deadline | | |
+| `disagree-up` | ...disagreed with your manager | | |
+| `ambiguity` | ...worked with unclear requirements | | |
+| `results` | What's your greatest achievement? | | |
+
+Refs: `[Employer] #n` points to accomplishment n in section 4; `Sn` points to a standalone
+story below. Record an honest **none** rather than leaving a row blank.
+
+**Standalone stories** (conflict, failure, feedback and so on that aren't CV accomplishments)
+
+### S1 — [short handle] · [Employer, year]
+- Situation:
+- Task:
+- Action: [what *they* did, specifically]
+- Result:
+- Reflection: [what they do differently now; required for `failure` and `feedback`]
+- Their words: "…" `[verbatim]`
+- Behavioural tags: primary `[tag]`: [angle] · [grade]; secondary …
+
+**Coverage gaps:** [core tags with no strong story; which ones they said they genuinely
+can't recall an example for; any single story overloaded across more than two core tags]
 
 ## 9. Positioning (Phase 7 — validated with them)
 **Positioning statement (one line):**
@@ -179,6 +217,10 @@ Mode: [express/standard/executive] · Started: [date] · Last session: [date]
 - [ ] 6 Loose ends
 - [ ] 7 Synthesis
 - [ ] 8 Report
+
+## Story bank core coverage
+conflict [ ] · failure [ ] · influence [ ] · leadership/ownership [ ] · deadline [ ] ·
+disagree-up [ ] · ambiguity [ ] · results [ ]   (tick when a strong story is on file)
 
 ## Next question
 [The literal next thing to ask, so a resumed session starts cleanly.]

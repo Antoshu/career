@@ -20,7 +20,7 @@ Read this before writing any CV or LinkedIn content. The master profile is the s
 2. **Targeted CV** — cut from the master for one posting or one class of role. This is what gets sent. One page unless they chose two (see [Length](#length-one-page-by-default)).
 3. **LinkedIn** — a different genre: public, first-person, searchable, read by humans browsing rather than screening.
 4. **Cover letter / outreach** — only when it's asked for or when they particularly want the role.
-5. **Interview stories** — the Challenge/Action/Result entries from the profile, expanded, so the document and the conversation agree.
+5. **Interview stories** — built from the behavioural story bank (profile section 8b). For each common question, take the best-graded story and write it out as STAR, foregrounding the angle recorded for that tag. Include Reflection for failure and feedback questions, and keep each story to roughly two minutes when spoken. Use the same numbers as the CV, so the document and the conversation agree. List the coverage gaps alongside, so they know which questions they still need a story for.
 
 Doing it in this order means each document is a filtering decision rather than a rewrite, and the CV and LinkedIn never contradict each other — which recruiters do check.
 

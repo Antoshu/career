@@ -132,8 +132,9 @@ For each significant role, work through — conversationally, one question at a 
 2. **Scope** — the numbers that establish weight: team size and structure, budget or P&L, revenue/users/volume touched, geographies, stakeholder seniority, what they owned versus influenced. Scope is the most commonly omitted thing on a resume and among the first things a recruiter looks for.
 3. **Accomplishments** — 3–6 per major role. Drive each to Challenge → Action → Result, with a number on the result or an explicit note that there isn't one. Ask what they were proudest of, what they were hired to fix, what would have broken without them, and what the place looked like when they left versus when they arrived.
 4. **Evidence** — how they know the result: dashboard, review quote, award, promotion, customer reaction. Record the source.
-5. **Tools and methods** — the concrete stack, systems and frameworks actually used here, and at what depth.
-6. **Read-back** — summarise the role in four or five lines and ask what you got wrong. This routinely triggers "oh, and also…", which is frequently the best item in the role.
+5. **Behavioural classification** — as you write each accomplishment to the file, tag it with the behavioural interview questions it can answer ("tell me about a time you handled conflict", "...failed", "...influenced without authority"). Give it one primary tag and up to two secondary ones, an angle for each saying which part of the story to foreground for that question, and a grade. Do this silently; don't announce tags mid-interview. Classify on what the story actually contains, because a stretched tag falls apart on the interviewer's second follow-up. If a conflict, failure or piece of hard feedback comes up in passing, capture it as a standalone story in the story bank even though it will never be a CV bullet. `references/behavioural-taxonomy.md` has the tags and rules.
+6. **Tools and methods** — the concrete stack, systems and frameworks actually used here, and at what depth.
+7. **Read-back** — summarise the role in four or five lines and ask what you got wrong. This routinely triggers "oh, and also…", which is frequently the best item in the role.
 
 `references/question-bank.md` has the full question sets, including variants for engineers, managers, executives, sales, PM/design, academics, career changers and early-career.
 
@@ -148,6 +149,8 @@ Then walk the target evidence matrix from Phase 1b and ask directly about every 
 ### Phase 5 — Signature and differentiation (15 min)
 
 The material that makes a profile sound like a person rather than a role. What colleagues say they are unusually good at; what they get pulled into regardless of job title; the decision they are proudest of; a failure and what changed afterwards; how they describe their working or leadership style; what they want a hiring manager to believe after 30 seconds. For executives also: operating philosophy, transformations led, board and investor exposure, public profile.
+
+Failures, conflicts, disagreements and feedback surface here more than anywhere else; write each one into the behavioural story bank as a standalone story. Before leaving the phase, walk the story bank's core set (conflict, failure, influence, leadership/ownership, deadline, disagree-up, ambiguity, results). For each row without a strong story, ask one open question aimed at it. The prompts are in `references/question-bank.md`. Record an honest "can't think of one" as a gap rather than coaxing a weak story into the slot.
 
 ### Phase 6 — Loose ends and hard bits (10 min)
 
@@ -167,8 +170,9 @@ Write into the profile, and tell them:
 - **Gaps against target** — what their target postings ask for that their evidence does not yet support, split into "we didn't capture it" versus "you genuinely don't have it yet."
 - **Unverified claims** — anything estimated or half-remembered, flagged for confirmation before it enters a document.
 - **What to go find** — specific artifacts worth digging up: that dashboard, the review quote, the launch metrics.
+- **Story bank coverage** — which common behavioural questions they have a strong story for, which are thin, which have none, and whether one project is carrying too many of them.
 
-Then offer the deliverables: master CV, targeted CV for a specific posting, LinkedIn rewrite section by section, cover letter, interview stories. Read `references/deliverables.md` before writing any of them, and run its tone check — draft the summary alone, in two registers, and settle the voice — before writing the body of the first one.
+Then offer the deliverables: master CV, targeted CV for a specific posting, LinkedIn rewrite section by section, cover letter, interview stories (from the behavioural story bank). Read `references/deliverables.md` before writing any of them, and run its tone check — draft the summary alone, in two registers, and settle the voice — before writing the body of the first one.
 
 ## Reference files
 
@@ -177,6 +181,7 @@ Read these when you reach the relevant point — don't preload them all.
 - `references/elicitation.md` — **read before Phase 3.** How to ask: getting past duty-talk, the metric ladder, what to do when they say they have no numbers, avoiding leading questions, pacing, handling sensitive history.
 - `references/question-bank.md` — full question sets per phase, plus role-type variants. Pull from it; don't read it aloud.
 - `references/career-profile-template.md` — structure of the master file and the state file.
+- `references/behavioural-taxonomy.md` — **read before Phase 3.** The behavioural interview categories, how to tag and grade each accomplishment, standalone stories, and the coverage rules for the story bank.
 - `references/deliverables.md` — **read before writing any CV or LinkedIn content.** Bullet construction, handling awkward history, CV length and fitting to one page, what ATS actually does, LinkedIn section rules and lengths, editing the live profile, tailoring from the master file.
 
 **Once the profile exists**, a CV tailored to a single posting is the `targeted-cv` skill's job, not this one's. Do not reopen the interview for it.

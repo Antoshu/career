@@ -143,6 +143,21 @@ And on anything they want to cut: "You've said those years aren't relevant. Befo
 - After thirty seconds with your profile, what do you want a hiring manager to believe about you?
 - What do you *not* want to be hired for anymore?
 
+### Story bank gap-fill
+
+Ask only for core tags that don't yet have a strong story, one at a time, and keep them open. Ask what happened, never what they did right, so they tell the real version rather than the polished one.
+
+- `conflict`: Who's someone at work you really didn't see eye to eye with? What was it about?
+- `failure`: What's something that went wrong where, looking back, part of it was on you?
+- `disagree-up`: When did you think your manager, or someone senior, was making the wrong call? What did you do?
+- `influence`: When did you need people who didn't report to you to change what they were doing?
+- `feedback`: What's the hardest piece of feedback you've had? What did you do with it?
+- `ambiguity`: When were you handed something with no clear definition of done?
+- `deadline`: When did the time you had stop matching the work? What gave?
+- `leadership` / `ownership`: What's something you picked up that wasn't strictly your job, and carried to the end?
+
+Follow up the same way as an accomplishment, with what the other person said, what happened next and how it ended. For failure and feedback, also ask what they do differently now.
+
 Executive additions:
 - How would you describe your operating philosophy in a sentence?
 - What's the largest transformation you've led, and what was the before and after at company level?
